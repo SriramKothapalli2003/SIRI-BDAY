@@ -1,8 +1,8 @@
-const PASSCODE = "2026";
+const PASSCODE = "15022011";
 
 const text = `Siri Paapa,
 You are my happiness,
-my strength,
+my one and only closest person,
 and my forever blessing ❤️`;
 
 let i = 0;
@@ -35,3 +35,4 @@ function typeText() {
     setTimeout(typeText, 40);
   }
 }
+
