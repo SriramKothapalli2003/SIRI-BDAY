@@ -76,6 +76,7 @@ button:active {
 
 .title {
   text-shadow: 0 0 20px pink;
+  color: gold;
 }
 
 .typing {
@@ -114,5 +115,6 @@ footer {
   font-size: 14px;
   opacity: 0.9;
 }
+
 
 
