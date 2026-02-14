@@ -27,6 +27,7 @@ body {
 .heart {
   font-size: 80px;
   animation: pulse 1.5s infinite;
+  color: red;
 }
 
 @keyframes pulse {
@@ -115,6 +116,7 @@ footer {
   font-size: 14px;
   opacity: 0.9;
 }
+
 
 
 
