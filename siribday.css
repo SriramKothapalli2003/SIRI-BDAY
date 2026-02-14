@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+ background-image:url(Pictures/bday.JPG) ;
+ background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+/* Lock Screen */
+.lock {
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
+.heart {
+  font-size: 80px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+input {
+  width: 220px;
+  padding: 14px;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+}
+
+button {
+  margin-top: 15px;
+  padding: 14px 30px;
+  border-radius: 30px;
+  border: none;
+  background: white;
+  color: #ff3b6f;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+#error {
+  margin-top: 10px;
+  color: #ffd1dc;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Surprise Content */
+.content {
+  min-height: 100vh;
+  padding: 25px 15px;
+  backdrop-filter: blur(6px);
+}
+
+.title {
+  text-shadow: 0 0 20px pink;
+}
+
+.typing {
+  max-width: 320px;
+  margin: 20px auto;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.gallery {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 140px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 18px;
+  transform: rotate(-2deg);
+}
+
+.promise {
+  margin-top: 25px;
+  padding: 20px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 20px;
+  color: black;
+}
+
+footer {
+  margin-top: 25px;
+  font-size: 14px;
+  opacity: 0.9;
+}
